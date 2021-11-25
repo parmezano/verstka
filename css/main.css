@@ -1,0 +1,56 @@
+.header {
+    text-decoration: none;
+    display: flex;
+    background: rgba(23, 113, 101, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.header__logo {
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 40px 134px 75px 120px
+}
+
+.header__menu {
+    margin-top: 49px;
+    list-style-type: none;
+
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header__menu_active {
+    margin-right: 40px;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.header__menu_inactive {
+    margin-right: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header__button{
+    margin-top: 50px;
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+
+.header__button-language {
+    margin-left: auto;
+}
+
+.header__button_account {
+    margin-right:48px;
+    margin-left:47px;
+}
