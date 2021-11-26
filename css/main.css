@@ -7,21 +7,36 @@
 
 .head__image{
     margin-top: 134px;
-    width: 90%;
+    background: url("../img/ellipse1.png");
+    background: rgba(23, 113, 101, 0.59);
+    background-size: 546px 546px;
+    filter: blur(200px);
+    max-width: 720px;
+    height: 657px;
+    width: 720px;
 }
+
+.head__image_img{
+    filter: none;
+    height: 657px;
+    width: 720px;
+
+}
+
 
 .head_content{
     display: flex;
 }
 
 .head__text{
-    margin: 117px 150px 0 0;
+    margin-top: 117px;
     max-height: 380px;
 }
 
 
 
 .head__text_title{
+    margin: 0;
     font-family: Playfair Display,serif;
     font-style: normal;
     font-weight: bold;
@@ -41,14 +56,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 .head__button{
-    font-family: Poppins, serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 29px;
-    text-align: left;
-
-    height: 72px;
+    padding: 22px 56px;
     width: 243px;
 }
 
@@ -118,5 +126,17 @@
 }
 
 .button {
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    height: 72px;
+}
+
+.body{
+    margin: 0;
+    background: rgba(244, 255, 254, 1);
 
 }
