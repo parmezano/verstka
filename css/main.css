@@ -1,3 +1,55 @@
+.head {
+    background: rgba(23, 113, 101, 1);
+    background-size: 100%;
+    max-height: 807px;
+    width: 100%;
+}
+
+.head__image{
+    margin-top: 134px;
+    width: 90%;
+}
+
+.head_content{
+    display: flex;
+}
+
+.head__text{
+    margin: 117px 150px 0 0;
+    max-height: 380px;
+}
+
+.head__text_title{
+    font-family: Playfair Display,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 116.6%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.head__text_text{
+    margin-top: 30px;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+}
+.head__button{
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+
+    height: 72px;
+    width: 243px;
+}
+
 .header {
     text-decoration: none;
     display: flex;
@@ -53,4 +105,9 @@
 .header__button_account {
     margin-right:48px;
     margin-left:47px;
+}
+
+
+.button {
+
 }
