@@ -107,6 +107,13 @@
     margin-left:47px;
 }
 
+.header__after-arrow::after {
+    content: url("../img/arrow-downward.svg");
+}
+
+.header__before-avatar::before {
+    content: url("../img/person.svg");
+}
 
 .button {
 
